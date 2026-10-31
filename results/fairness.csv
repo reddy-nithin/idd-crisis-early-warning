@@ -1,0 +1,81 @@
+attribute,group,patients,weeks,positive_weeks,tpr,fpr,model,split
+gender,female,35,1132,206,0.5291,0.2311,Logistic regression,time
+gender,male,56,1828,177,0.2034,0.0672,Logistic regression,time
+age_band,25-39,45,1522,183,0.4044,0.1225,Logistic regression,time
+age_band,40+,16,446,68,0.3382,0.0952,Logistic regression,time
+age_band,<25,32,992,132,0.3636,0.1453,Logistic regression,time
+setting,isl,85,2413,337,0.4154,0.146,Logistic regression,time
+setting,other_community,22,365,33,0.0909,0.0452,Logistic regression,time
+gender,female,40,3645,512,0.4824,0.2432,Logistic regression,patient
+gender,male,69,7398,473,0.2579,0.0918,Logistic regression,patient
+age_band,25-39,58,5665,508,0.3622,0.135,Logistic regression,patient
+age_band,40+,23,1970,162,0.4136,0.1156,Logistic regression,patient
+age_band,<25,39,3408,315,0.3746,0.1594,Logistic regression,patient
+setting,group_home,18,606,63,0.4286,0.2063,Logistic regression,patient
+setting,isl,97,8098,830,0.394,0.1668,Logistic regression,patient
+setting,other_community,47,1827,91,0.1648,0.0421,Logistic regression,patient
+setting,recent_inpatient,15,512,1,0.0,0.002,Logistic regression,patient
+gender,female,35,1132,206,0.5146,0.2127,XGBoost,time
+gender,male,56,1828,177,0.1864,0.0812,XGBoost,time
+age_band,25-39,45,1522,183,0.3388,0.1329,XGBoost,time
+age_band,40+,16,446,68,0.2353,0.0291,XGBoost,time
+age_band,<25,32,992,132,0.4621,0.1651,XGBoost,time
+setting,isl,85,2413,337,0.3947,0.1426,XGBoost,time
+setting,other_community,22,365,33,0.0606,0.0572,XGBoost,time
+gender,female,40,3645,512,0.4219,0.2573,XGBoost,patient
+gender,male,69,7398,473,0.2199,0.0926,XGBoost,patient
+age_band,25-39,58,5665,508,0.3504,0.1309,XGBoost,patient
+age_band,40+,23,1970,162,0.2593,0.1565,XGBoost,patient
+age_band,<25,39,3408,315,0.3175,0.1581,XGBoost,patient
+setting,group_home,18,606,63,0.4603,0.1289,XGBoost,patient
+setting,isl,97,8098,830,0.3337,0.1745,XGBoost,patient
+setting,other_community,47,1827,91,0.1538,0.0622,XGBoost,patient
+setting,recent_inpatient,15,512,1,0.0,0.002,XGBoost,patient
+gender,female,35,1132,206,0.5777,0.2149,FIM-PP zero-shot,time
+gender,male,56,1828,177,0.1412,0.0769,FIM-PP zero-shot,time
+age_band,25-39,45,1522,183,0.3716,0.106,FIM-PP zero-shot,time
+age_band,40+,16,446,68,0.2059,0.0847,FIM-PP zero-shot,time
+age_band,<25,32,992,132,0.4697,0.1767,FIM-PP zero-shot,time
+setting,isl,85,2413,337,0.3947,0.1363,FIM-PP zero-shot,time
+setting,other_community,22,365,33,0.0909,0.0964,FIM-PP zero-shot,time
+gender,female,40,3645,512,0.5098,0.2081,FIM-PP zero-shot,patient
+gender,male,69,7398,473,0.2791,0.1043,FIM-PP zero-shot,patient
+age_band,25-39,58,5665,508,0.3917,0.1307,FIM-PP zero-shot,patient
+age_band,40+,23,1970,162,0.4074,0.1366,FIM-PP zero-shot,patient
+age_band,<25,39,3408,315,0.4063,0.1465,FIM-PP zero-shot,patient
+setting,group_home,18,606,63,0.3333,0.151,FIM-PP zero-shot,patient
+setting,isl,97,8098,830,0.4241,0.1637,FIM-PP zero-shot,patient
+setting,other_community,47,1827,91,0.2198,0.053,FIM-PP zero-shot,patient
+setting,recent_inpatient,15,512,1,0.0,0.0196,FIM-PP zero-shot,patient
+gender,female,35,1132,206,0.4175,0.2117,TabPFN-2.5 zero-shot,time
+gender,male,56,1828,177,0.1525,0.0975,TabPFN-2.5 zero-shot,time
+age_band,25-39,45,1522,183,0.2568,0.1352,TabPFN-2.5 zero-shot,time
+age_band,40+,16,446,68,0.2941,0.1032,TabPFN-2.5 zero-shot,time
+age_band,<25,32,992,132,0.3485,0.1593,TabPFN-2.5 zero-shot,time
+setting,isl,85,2413,337,0.3205,0.159,TabPFN-2.5 zero-shot,time
+setting,other_community,22,365,33,0.0606,0.0512,TabPFN-2.5 zero-shot,time
+gender,female,40,3645,512,0.3477,0.2049,TabPFN-2.5 zero-shot,patient
+gender,male,69,7398,473,0.2072,0.1226,TabPFN-2.5 zero-shot,patient
+age_band,25-39,58,5665,508,0.2717,0.1373,TabPFN-2.5 zero-shot,patient
+age_band,40+,23,1970,162,0.3457,0.1621,TabPFN-2.5 zero-shot,patient
+age_band,<25,39,3408,315,0.2603,0.1584,TabPFN-2.5 zero-shot,patient
+setting,group_home,18,606,63,0.1905,0.116,TabPFN-2.5 zero-shot,patient
+setting,isl,97,8098,830,0.2964,0.1705,TabPFN-2.5 zero-shot,patient
+setting,other_community,47,1827,91,0.1978,0.1031,TabPFN-2.5 zero-shot,patient
+setting,recent_inpatient,15,512,1,0.0,0.0196,TabPFN-2.5 zero-shot,patient
+gender,female,35,1132,206,0.3058,0.1544,2x own-baseline rule,time
+gender,male,56,1828,177,0.2542,0.1326,2x own-baseline rule,time
+age_band,25-39,45,1522,183,0.3115,0.1374,2x own-baseline rule,time
+age_band,40+,16,446,68,0.25,0.1746,2x own-baseline rule,time
+age_band,<25,32,992,132,0.2576,0.1302,2x own-baseline rule,time
+setting,isl,85,2413,337,0.2908,0.1508,2x own-baseline rule,time
+setting,other_community,22,365,33,0.1515,0.1145,2x own-baseline rule,time
+gender,female,40,3645,512,0.291,0.1334,2x own-baseline rule,patient
+gender,male,69,7398,473,0.2643,0.1552,2x own-baseline rule,patient
+age_band,25-39,58,5665,508,0.3012,0.1417,2x own-baseline rule,patient
+age_band,40+,23,1970,162,0.2963,0.2273,2x own-baseline rule,patient
+age_band,<25,39,3408,315,0.2317,0.1135,2x own-baseline rule,patient
+setting,group_home,18,606,63,0.2381,0.0497,2x own-baseline rule,patient
+setting,isl,97,8098,830,0.3012,0.141,2x own-baseline rule,patient
+setting,other_community,47,1827,91,0.0989,0.1371,2x own-baseline rule,patient
+setting,recent_inpatient,15,512,1,0.0,0.3973,2x own-baseline rule,patient

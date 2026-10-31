@@ -1,0 +1,7 @@
+window_days,group,weeks,patients,any_incident,above_2x_own_baseline,mean_incidents
+7,Week before a crisis,338,76,0.1982,0.1243,0.3166
+7,Calm weeks,10058,109,0.0769,0.0461,0.1066
+14,Week before a crisis,338,76,0.3905,0.1805,0.7722
+14,Calm weeks,10058,109,0.1444,0.0657,0.2374
+30,Week before a crisis,338,76,0.5947,0.2604,1.7101
+30,Calm weeks,10058,109,0.2522,0.0743,0.537

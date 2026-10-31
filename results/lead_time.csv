@@ -1,0 +1,5 @@
+days_until_crisis,crisis_weeks,patients,auroc_vs_calm_weeks
+1-7,338,76,0.7579
+8-14,253,76,0.7317
+15-21,223,76,0.714
+22-28,171,70,0.6937
