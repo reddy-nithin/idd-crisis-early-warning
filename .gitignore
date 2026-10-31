@@ -1,0 +1,11 @@
+# patient data and model outputs never leave this machine
+data/
+outputs/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+# secrets
+.env
+.coverage
+dist/
